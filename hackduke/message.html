@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="css/connect.css">
-    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="icon" type="image/png" href="images/icon.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -29,6 +29,7 @@
                     <a class="nav-item nav-link navbar-text navlink" href="./message.html"><img src="http://images.apusapps.com/src/icon-clear-msg-notification.png" width="35px" height="35px"></a>
                     <a class="nav-item nav-link navbar-text navlink" href="./requests.html"><img src="https://d30y9cdsu7xlg0.cloudfront.net/png/157558-200.png" width="35px" height="35px"></a>
                     <a class="nav-item nav-link navbar-text navlink" href="./account.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/OOjs_UI_icon_advanced.svg/2000px-OOjs_UI_icon_advanced.svg.png" width="35px" height="35px"></a>
+                     <a class="nav-item nav-link navbar-text navlink" href="./kidoordinateHome.html"><img src="https://cdn2.iconfinder.com/data/icons/large-home-icons/256/Exit_delete_close_remove_door_logout_out.png" width="35px" height="35px"></a>
                 </div>
             </nav>
         </div>
@@ -62,6 +63,8 @@
       </div>
     </div> -->
 
+     <h1 align="center"> Your Messages </h1>
+
     <div class="container">
             <a></a>
             <div class="card-columns">
@@ -72,9 +75,13 @@
                         <p class="card-text"><i>Great! I just sent you a request.</i><br/></p>
                     </div>
                     <div class="card-footer" align="center">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#messModal">
+  Reply
+</button>
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
   Send Request
 </button>
+
 
                     </div>
                 </div>
@@ -84,6 +91,9 @@
                         <p class="card-text"><i>Tony has art class on Tuesdays. Do you think Anna would want to join?</i><br/></p>
                     </div>
                     <div class="card-footer" align="center">
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#messModal">
+  Reply
+</button>
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
   Send Request
 </button>
@@ -97,6 +107,9 @@
                         <p class="card-text"><i>Sheila will be at her grandmother's that weekend.</i><br/></p>
                     </div>
                     <div class="card-footer" align="center">
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#messModal">
+  Reply
+</button>
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
   Send Request
 </button>
@@ -109,6 +122,9 @@
                         <p class="card-text"><i>Is Kate in Mr. Norman's class? Tommy is in the one next door!</i><br/></p>
                     </div>
                     <div class="card-footer" align="center">
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#messModal">
+  Reply
+</button>
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
   Send Request
 </button>
@@ -121,6 +137,9 @@
                         <p class="card-text"><i>Sheila will be at her grandmother's that weekend.</i><br/></p>
                     </div>
                     <div class="card-footer" align="center">
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#messModal">
+  Reply
+</button>
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
   Send Request
 </button>
@@ -133,6 +152,9 @@
                         <p class="card-text"><i>Is Anna in Mr. Norman's class? Tommy is in the one next door!</i><br/></p>
                     </div>
                     <div class="card-footer" align="center">
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#messModal">
+  Reply
+</button>
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
   Send Request
 </button>
@@ -146,6 +168,9 @@
                         <p class="card-text"><i>Sheila will be at her grandmother's that weekend.</i><br/></p>
                     </div>
                     <div class="card-footer" align="center">
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#messModal">
+  Reply
+</button>
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
   Send Request
 </button>
@@ -158,6 +183,9 @@
                         <p class="card-text"><i>Is Anna going to community soccer this week? I could give her a ride when I take Toby.</i><br/></p>
                     </div>
                     <div class="card-footer" align="center">
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#messModal">
+  Reply
+</button>
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
   Send Request
 </button>
@@ -203,6 +231,29 @@
 
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal"><img src="https://image.flaticon.com/icons/png/128/149/149446.png" height="20px" width="25px"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="messModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Send a Message</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div align="center" class="modal-body">
+        <textarea rows="5" cols="50" id="TITLE" placeholder="Say hello!">
+</textarea>
+
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
         <button type="button" class="btn btn-primary" data-dismiss="modal"><img src="https://image.flaticon.com/icons/png/128/149/149446.png" height="20px" width="25px"></button>
       </div>
     </div>

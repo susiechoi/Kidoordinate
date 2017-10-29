@@ -7,14 +7,41 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="css/connect.css">
-    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="icon" type="image/png" href="images/icon.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script>
+$(document).ready(function(){
+    $(".button1").click(function(){
+        $("#card1").remove();
+    });
+});
+$(document).ready(function(){
+    $(".button2").click(function(){
+        $("#card2").remove();
+    });
+});
+$(document).ready(function(){
+    $(".button3").click(function(){
+        $("#card3").remove();
+    });
+});
+$(document).ready(function(){
+    $(".button4").click(function(){
+        $("#card4").remove();
+    });
+});
+$(document).ready(function(){
+    $(".button5").click(function(){
+        $("#card5").remove();
+    });
+});
+</script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
     <title>Kidoordinate</title>
     </head>
-    
+
     <body>
 
         <div>
@@ -29,6 +56,7 @@
                     <a class="nav-item nav-link navbar-text navlink" href="./message.html"><img src="http://images.apusapps.com/src/icon-clear-msg-notification.png" width="35px" height="35px"></a>
                     <a class="nav-item nav-link navbar-text navlink" href="./requests.html"><img src="https://d30y9cdsu7xlg0.cloudfront.net/png/157558-200.png" width="35px" height="35px"></a>
                     <a class="nav-item nav-link navbar-text navlink" href="./account.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/OOjs_UI_icon_advanced.svg/2000px-OOjs_UI_icon_advanced.svg.png" width="35px" height="35px"></a>
+                     <a class="nav-item nav-link navbar-text navlink" href="./kidoordinateHome.html"><img src="https://cdn2.iconfinder.com/data/icons/large-home-icons/256/Exit_delete_close_remove_door_logout_out.png" width="35px" height="35px"></a>
                 </div>
             </nav>
         </div>
@@ -62,81 +90,83 @@
       </div>
     </div> -->
 
+    <h1 align="center"> Pending Playdate Requests </h1>
+
     <div class="container">
             <a></a>
             <div class="card-columns">
-                <div class="card">
+                <div class="card" id="card1">
                     <img class="card-img-top thumbnail" src="https://farm1.staticflickr.com/21/30196428_e52a77eac9_s.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h4 class="card-title">Landon C.</h4>
                         <p class="card-text"><i>10/29/17 4pm at the Duke Gardens</i><br/></p>
                     </div>
                     <div class="card-footer" align="center">
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+<button type="button" class="button1 btn btn-primary" data-toggle="modal" data-target="#myModal">
   Accept
 </button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#decModal">
+<button type="button" class="button1 btn btn-primary" data-toggle="modal" data-target="#decModal">
   Decline
 </button>
 
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="card2">
                     <div class="card-body">
                         <h4 class="card-title">Tyler B.</h4>
                         <p class="card-text"><i>11/03/17 6pm at Community Center</i><br/></p>
                     </div>
                     <div class="card-footer" align="center">
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+<button type="button" class="button2 btn btn-primary" data-toggle="modal" data-target="#myModal">
   Accept
 </button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#decModal">
+<button type="button" class="button2 btn btn-primary" data-toggle="modal" data-target="#decModal">
   Decline
 </button>
 
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="card3">
                   <img class="card-img-top thumbnail" src="https://farm8.staticflickr.com/7387/9466295427_e9cfe31cec_s.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h4 class="card-title">Susan R.</h4>
                         <p class="card-text"><i>11/08/17 12pm at the Scott's Run Playground</i><br/></p>
                     </div>
                     <div class="card-footer" align="center">
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+<button type="button"  class="button3 btn btn-primary" data-toggle="modal" data-target="#myModal">
   Accept
 </button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#decModal">
+<button type="button" class="button3 btn btn-primary" data-toggle="modal" data-target="#decModal">
   Decline
 </button>
 
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="card4">
                     <div class="card-body">
                         <h4 class="card-title">Owen A.</h4>
                         <p class="card-text"><i>11/15/17 8pm at Grace's FroYo</i><br/></p>
                     </div>
                     <div class="card-footer" align="center">
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+<button type="button" class="button4 btn btn-primary" data-toggle="modal" data-target="#myModal">
   Accept
 </button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#decModal">
+<button type="button" class="button4 btn btn-primary" data-toggle="modal" data-target="#decModal">
   Decline
 </button>
 
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="card5">
                     <div class="card-body">
                         <h4 class="card-title">Jun Y.</h4>
                         <p class="card-text"><i>11/16/17 10am at Town Fair</i><br/></p>
                     </div>
                     <div class="card-footer" align="center">
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+<button type="button" class="btn btn-primary button5" data-toggle="modal" data-target="#myModal">
   Accept
 </button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#decModal">
+<button type="button" class="btn btn-primary button5" data-toggle="modal" data-target="#decModal">
   Decline
 </button>
 
@@ -150,8 +180,7 @@
         <small class="text-muted"><a href="#top">Back to Top</a></small>
         </div>
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -190,7 +219,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- JS code -->
 <script src="https://code.jquery.com/jquery-3.1.1.min.js">
