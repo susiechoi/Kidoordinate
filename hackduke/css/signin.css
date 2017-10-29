@@ -50,3 +50,12 @@
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+#loginBack{
+  padding-top: 150px;
+  padding-bottom: 250px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://farm8.staticflickr.com/7378/9035431576_00586f249d_o.jpg");
+  background-size: 1500px 700px;
+}

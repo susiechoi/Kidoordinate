@@ -67,12 +67,15 @@
                 <div class="card">
                     <img class="card-img-top thumbnail" src="https://farm1.staticflickr.com/21/30196428_e52a77eac9_s.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h4 class="card-title">Landon C.<img src="http://images.apusapps.com/src/icon-clear-msg-notification.png" width="40px" height="40px"></h4>
-                        <p class="card-text"><i>Great! I just sent you a request.</i><br/></p>
+                        <h4 class="card-title">Landon C.</h4>
+                        <p class="card-text"><i>10/29/17 4pm at the Duke Gardens</i><br/></p>
                     </div>
                     <div class="card-footer" align="center">
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-  Send Request
+  Accept
+</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#decModal">
+  Decline
 </button>
 
                     </div>
@@ -80,11 +83,14 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Tyler B.</h4>
-                        <p class="card-text"><i>Tony has art class on Tuesdays. Do you think Anna would want to join?</i><br/></p>
+                        <p class="card-text"><i>11/03/17 6pm at Community Center</i><br/></p>
                     </div>
                     <div class="card-footer" align="center">
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-  Send Request
+  Accept
+</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#decModal">
+  Decline
 </button>
 
                     </div>
@@ -93,35 +99,14 @@
                   <img class="card-img-top thumbnail" src="https://farm8.staticflickr.com/7387/9466295427_e9cfe31cec_s.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h4 class="card-title">Susan R.</h4>
-                        <p class="card-text"><i>Sheila will be at her grandmother's that weekend.</i><br/></p>
+                        <p class="card-text"><i>11/08/17 12pm at the Scott's Run Playground</i><br/></p>
                     </div>
                     <div class="card-footer" align="center">
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-  Send Request
+  Accept
 </button>
-
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Bruce M.</h4>
-                        <p class="card-text"><i>Is Kate in Mr. Norman's class? Tommy is in the one next door!</i><br/></p>
-                    </div>
-                    <div class="card-footer" align="center">
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-  Send Request
-</button>
-
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Ashwin M.</h4>
-                        <p class="card-text"><i>Sheila will be at her grandmother's that weekend.</i><br/></p>
-                    </div>
-                    <div class="card-footer" align="center">
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-  Send Request
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#decModal">
+  Decline
 </button>
 
                     </div>
@@ -129,24 +114,14 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Owen A.</h4>
-                        <p class="card-text"><i>Is Anna in Mr. Norman's class? Tommy is in the one next door!</i><br/></p>
+                        <p class="card-text"><i>11/15/17 8pm at Grace's FroYo</i><br/></p>
                     </div>
                     <div class="card-footer" align="center">
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-  Send Request
+  Accept
 </button>
-
-                    </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top thumbnail" src="https://farm4.staticflickr.com/3338/3425349556_75e62d9989_s.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h4 class="card-title">Jeff F.</h4>
-                        <p class="card-text"><i>Sheila will be at her grandmother's that weekend.</i><br/></p>
-                    </div>
-                    <div class="card-footer" align="center">
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-  Send Request
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#decModal">
+  Decline
 </button>
 
                     </div>
@@ -154,11 +129,14 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Jun Y.</h4>
-                        <p class="card-text"><i>Is Anna going to community soccer this week? I could give her a ride when I take Toby.</i><br/></p>
+                        <p class="card-text"><i>11/16/17 10am at Town Fair</i><br/></p>
                     </div>
                     <div class="card-footer" align="center">
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-  Send Request
+  Accept
+</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#decModal">
+  Decline
 </button>
 
                     </div>
@@ -176,33 +154,38 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Confirm</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Are you sure you want to accept this playdate request? 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Yes, Accept</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="decModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Send Playdate Request</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <label for="date" class="sr-only">Date</label>
-        <input id="date" class="form-control" placeholder="Suggest a date">
-        <p></p>
-
-        <label for="time" class="sr-only">Time</label>
-        <input id="time" class="form-control" placeholder="Suggest a time">
-        <p></p>
-
-        <label for="location" class="sr-only">Location</label>
-        <input id="location" class="form-control" placeholder="Suggest a location">
-        <p></p>
-
-        <label for="note" class="sr-only">Note</label>
-        <input id="note" class="form-control" placeholder="(Optional) Add a Note">
-        <p></p>
-
+        Are you sure you want to decline this playdate request?
       </div>
 
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" data-dismiss="modal"><img src="https://image.flaticon.com/icons/png/128/149/149446.png" height="20px" width="25px"></button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Yes, Decline</button>
       </div>
     </div>
   </div>
