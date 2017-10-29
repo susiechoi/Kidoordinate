@@ -33,53 +33,61 @@
         </div>
 
         <div class="container">
-            <h4>Information on File<a href="./changeSettings.html"><button type="button" class="btn btn-primary" style="float: right;">Edit Information</button></a></h4>
+            <h4>Editing Information on File<a href="./account.html"><button type="button" class="btn btn-primary" style="float: right;">Save Information</button></a></h4>
             <p></p>
           <div class="table-responsive">
             <table class="table">
               <tbody>
                 <tr>
                   <td>Name</td>
-                  <td>Grace Hopper</td>
+                  <td><label for="inputName" class="sr-only">Name</label>
+        <input type="name" id="inputName" class="form-control" placeholder="Grace Hopper"></td>
                 </tr>
                 <tr>
-                  <td>Username/ID</td>
+                  <td>Username/ID (Cannot change)</td>
                   <td>csLegend</td>
                 </tr>
                 <tr>
                   <td>Email</td>
-                  <td>csLegend@ghc.org</td>
+                  <td><label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address"></td>
                 </tr>
                 <tr>
                   <td>Phone Number</td>
-                  <td>1235556789</td>
+                  <td><label for="phone" class="sr-only">Phone number</label>
+        <input id="phone" class="form-control" placeholder="1235556789"></td>
                 </tr>
                 <tr>
                      <tr>
                   <td>Apartment Complex Name</td>
-                  <td>Crestwood Valley Apartments</td>
+                  <td><label for="inputComplex" class="sr-only">Apartment Complex Name</label>
+        <input type="complex" id="inputComplex" class="form-control" placeholder="Crestwood Valley Apartments"></td>
                 </tr>
                   <td>Address</td>
                   <td>
-                    579 Crestwood Valley Dr. #129</br>
-                    Durham, NC 27705
+                    <label for="inputAddress" class="sr-only">Address</label>
+        <input type="address" id="inputEmail" class="form-control" placeholder="579 Crestwood Valley Dr. #129 Durham, NC 27705">
                   </td>
                 </tr>
                 <tr>
                   <td>Bio</td>
-                  <td><i>Single mom & new to the area. Nice to meet you all!</i></td>
+                  <td><label for="inputBio" class="sr-only">Email address</label>
+        <input type="bio" id="inputBio" class="form-control" placeholder="Single mom & new to the area. Nice to meet you all!"></td>
                 </tr>
                 <tr>
                   <td>Child's Name or Alias</td>
-                  <td>Grasshopper</td>
+                  <td><label for="inputChild" class="sr-only">Child</label>
+        <input type="childName" id="inputChild" class="form-control" placeholder="Grasshopper"></td>
                 </tr>
                 <tr>
                   <td>Child's Age</td>
-                  <td>11</td>
+                  <td><label for="inputAge" class="sr-only">Child's Age</label>
+        <input type="childAge" id="inputAge" class="form-control" placeholder="11"></td>
                 </tr>
                 <tr>
                   <td>Child's Interests</td>
-                  <td><i>Board games & books</i></td>
+                  <td><label for="inputInterests" class="sr-only">Child's Interests</label>
+        <input type="childInterests" id="inputInterests" class="form-control" placeholder="Board games & books"></td>
                 </tr>
               </tbody>
             </table>
