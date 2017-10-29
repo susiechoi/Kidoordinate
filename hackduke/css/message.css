@@ -1,0 +1,9 @@
+
+#navLinks {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.navlink {
+    padding-left: 20px !important;
+}
