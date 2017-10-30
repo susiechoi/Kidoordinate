@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/connect.css">
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <title>Kidoordinate</title>
+    </head>
+    
+    <body>
+
+        <div>
+            <a id="top"></a>
+            <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+                <a class="navbar-brand" href="./schedule.html">
+                    <img src="images/logo.png" style="width:25%">
+                </a>      
+                <div class="navbar-nav" id="navLinks">
+                     <a class="nav-item nav-link navbar-text navlink" href="./schedule.html"><img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/calendar-icon.png" width="35px" height="35px"></a>
+                    <a class="nav-item nav-link navbar-text navlink" href="./connect.html"><img src="https://image.flaticon.com/icons/png/128/109/109859.png" width="35px" height="35px"></a>
+                    <a class="nav-item nav-link navbar-text navlink" href="./message.html"><img src="http://images.apusapps.com/src/icon-clear-msg-notification.png" width="35px" height="35px"></a>
+                    <a class="nav-item nav-link navbar-text navlink" href="./requests.html"><img src="https://d30y9cdsu7xlg0.cloudfront.net/png/157558-200.png" width="35px" height="35px"></a>
+                    <a class="nav-item nav-link navbar-text navlink" href="./account.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/OOjs_UI_icon_advanced.svg/2000px-OOjs_UI_icon_advanced.svg.png" width="35px" height="35px"></a>
+                     <a class="nav-item nav-link navbar-text navlink" href="./kidoordinateHome.html"><img src="https://cdn2.iconfinder.com/data/icons/large-home-icons/256/Exit_delete_close_remove_door_logout_out.png" width="35px" height="35px"></a>
+                </div>
+            </nav>
+        </div>
+
+<h1 align="center"> Editing Information on File </h1>
+
+        <div class="container">
+<!--                       <input type="submit" class="btn btn-lg btn-primary btn-block"></button><br></br>
+ -->
+            <a href="./account.html"><button type="button" class="btn btn-primary" style="float: right;">Save Information</button></a><br></br>
+            <p></p>
+          <div class="table-responsive">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td><label for="inputName" class="sr-only">Name</label>
+        <input type="name" id="inputName" class="form-control" placeholder="Grace Hopper"></td>
+                </tr>
+                <tr>
+                  <td>Username/ID (Cannot change)</td>
+                  <td>csLegend</td>
+                </tr>
+                <tr>
+                  <td>Email</td>
+                  <td><label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address"></td>
+                </tr>
+                <tr>
+                  <td>Phone Number</td>
+                  <td><label for="phone" class="sr-only">Phone number</label>
+        <input id="phone" class="form-control" placeholder="1235556789"></td>
+                </tr>
+                <tr>
+                     <tr>
+                  <td>Apartment Complex Name</td>
+                  <td>Crestwood Valley Apartments</td>
+                </tr>
+                  <td>Address</td><td>
+                  579 Crestwood Valley Dr. #129<br>
+                  Durham, NC 27705
+                  </td>
+                </tr>
+                <tr>
+                  <td>Profile Picture</td>
+                  <td>
+                    <!-- bootstrap-imageupload. -->
+            <div class="imageupload panel panel-default">
+                <div class="file-tab panel-body">
+                    <label class="btn btn-default btn-file">
+                        <span>Browse</span>
+                        <!-- The file is stored here. -->
+                        <input type="file" name="image-file">
+                    </label>
+                </div>
+              
+            </div>
+
+        </div>
+      </td>
+                <tr>
+                  <td>Bio</td>
+                  <td><label for="inputBio" class="sr-only">Email address</label>
+        <input type="bio" id="inputBio" class="form-control" placeholder="Single mom & new to the area. Nice to meet you all!"></td>
+                </tr>
+                <tr>
+                  <td>Child's Name or Alias</td>
+                  <td><label for="inputChild" class="sr-only">Child</label>
+        <input type="childName" id="inputChild" class="form-control" placeholder="Grasshopper"></td>
+                </tr>
+                <tr>
+                  <td>Child's Age</td>
+                  <td><label for="inputAge" class="sr-only">Child's Age</label>
+        <input type="childAge" id="inputAge" class="form-control" placeholder="11"></td>
+                </tr>
+                <tr>
+                  <td>Child's Interests</td>
+                  <td><label for="inputInterests" class="sr-only">Child's Interests</label>
+        <input type="childInterests" id="inputInterests" class="form-control" placeholder="Board games & books"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+    </div>
+
+
+        <div class="container text-center">
+        <small class="text-muted"><a href="#top">Back to Top</a></small>
+        </div>
+
+        <script>
+            var $imageupload = $('.imageupload');
+            $imageupload.imageupload();
+
+            $('#imageupload-disable').on('click', function() {
+                $imageupload.imageupload('disable');
+                $(this).blur();
+            })
+
+            $('#imageupload-enable').on('click', function() {
+                $imageupload.imageupload('enable');
+                $(this).blur();
+            })
+
+            $('#imageupload-reset').on('click', function() {
+                $imageupload.imageupload('reset');
+                $(this).blur();
+            });
+        </script>
+
+</body>
+</html>

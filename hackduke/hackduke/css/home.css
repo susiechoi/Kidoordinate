@@ -1,0 +1,24 @@
+#navLinks {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.navlink {
+    padding-left: 20px !important;
+}
+
+#about{
+	padding-top: 150px;
+	padding-bottom: 250px;
+	margin-left: -10px;
+	margin-right: -10px;
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://farm3.staticflickr.com/2356/2910495143_1b65c254d9_o.jpg");
+	background-size: 1500px 700px;
+}
+
+#testimonials{
+	padding-top: 150px;
+	padding-bottom: 250px;
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://farm2.staticflickr.com/1204/935364157_065760aa58_o.jpg");
+	background-size: 1200px 500px;
+	}

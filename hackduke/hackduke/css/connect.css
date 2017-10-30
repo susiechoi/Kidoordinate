@@ -1,0 +1,30 @@
+#navLinks {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.navlink {
+    padding-left: 20px !important;
+}
+
+h1 {
+    padding-bottom: 9px;
+}
+
+.placeholders {
+    padding-bottom: 3rem;
+}
+
+.placeholder img {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+#schedBack{
+  padding-top: 150px;
+  padding-bottom: 250px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://farm9.staticflickr.com/8263/9027368215_4fe8a2dfe8_o.jpg");
+  background-size: 1500px 1200px;
+}
